@@ -41,7 +41,6 @@ def download_playlist_yt_dlp(playlist_url, download_path="downloads", audio_only
     except Exception as e:
         print(f"Erro ao processar a playlist: {e}")
 
-# Exemplo de uso:
 if __name__ == "__main__":
     playlist_url = input("Insira a URL da playlist: ")
     download_path = "C:\Users\marti\Downloads\musica"
